@@ -1,0 +1,16 @@
+<ng-container *ngIf="!collapse; else expanded">
+  <img
+    height="48"
+    src="../../../../../assets/images/logo.png"
+    alt="logo"
+    (click)="handleCick()"
+  />
+</ng-container>
+<ng-template #expanded>
+  <img
+    height="40"
+    src="../../../../../assets/images/logo-no-text.png"
+    alt="logo"
+    (click)="handleCick()"
+  />
+</ng-template>

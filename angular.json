@@ -51,7 +51,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@syncfusion/ej2/fabric.css"
+              "node_modules/@syncfusion/ej2/fabric.css",
+              "node_modules/boxicons/css/boxicons.min.css"
             ],
             "scripts": []
           },
@@ -120,7 +121,8 @@
             ],
             "styles": [
               "src/styles.scss",
-              "node_modules/@syncfusion/ej2/fabric.css"
+              "node_modules/@syncfusion/ej2/fabric.css",
+              "node_modules/boxicons/css/boxicons.min.css"
             ],
             "scripts": []
           }
